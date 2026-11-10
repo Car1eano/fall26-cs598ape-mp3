@@ -1,0 +1,26 @@
+{
+  "red-black-openmp-symmetry-simd": {
+    "source_record": "results/red-black-openmp-symmetry-simd/vectorization-summary.json",
+    "compiler_evidence": {
+      "stabilize_has_vectorized_loops": true,
+      "hot_loop_messages": [
+        "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp-symmetry-simd.c:168:13: optimized: loop vectorized using 32 byte vectors",
+        "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp-symmetry-simd.c:168:13: optimized: loop vectorized using 16 byte vectors",
+        "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp-symmetry-simd.c:145:9: optimized: loop vectorized using 32 byte vectors",
+        "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp-symmetry-simd.c:145:9: optimized: loop vectorized using 16 byte vectors"
+      ],
+      "flags": "-O3 -lm -g -Werror -fopenmp -march=native"
+    }
+  },
+  "red-black-fused-simd": {
+    "source_record": "results/red-black-fused-simd/vectorization-summary.json",
+    "compiler_evidence": {
+      "stabilize_has_vectorized_loops": true,
+      "messages": [
+        "/home/poching2/fall26-cs598ape-mp3/variants/red-black-fused-simd.c:151:9: optimized: loop vectorized using 32 byte vectors",
+        "/home/poching2/fall26-cs598ape-mp3/variants/red-black-fused-simd.c:151:9: optimized: loop vectorized using 16 byte vectors",
+        "/home/poching2/fall26-cs598ape-mp3/variants/red-black-fused-simd.c:153:13: optimized: loop vectorized using 32 byte vectors"
+      ]
+    }
+  }
+}

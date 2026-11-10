@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/time.h>
+#include <omp.h>
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
@@ -20,6 +21,57 @@ static void die(const char *s) {
 
 int N = 801;
 int **grid;
+static int *grid_storage;
+static int *topple_storage;
+static size_t grid_stride;
+static int *row_begin;
+static int *row_end;
+static int *receive_begin;
+static int *receive_end;
+static int work_rows;
+static int use_reflection;
+
+static void prepare_row_bounds(void) {
+  row_begin = malloc((size_t)N * sizeof(*row_begin));
+  row_end = malloc((size_t)N * sizeof(*row_end));
+  receive_begin = malloc((size_t)N * sizeof(*receive_begin));
+  receive_end = malloc((size_t)N * sizeof(*receive_end));
+  if (!row_begin || !row_end || !receive_begin || !receive_end)
+    die("malloc failed for row bounds");
+  int64_t radius = N / 2;
+  for (int i = 0; i < N; ++i) {
+    row_begin[i] = N;
+    row_end[i] = -1;
+    int64_t dy = i - radius;
+    for (int j = 0; j <= MAX(i, N - 1 - i); ++j) {
+      int64_t dx = j - radius;
+      if (dy * dy + dx * dx <= radius * radius) {
+        if (row_begin[i] == N)
+          row_begin[i] = j;
+        row_end[i] = j;
+      }
+    }
+  }
+  // Only these cells can receive grains from the active domain.
+  for (int i = 0; i < N; ++i) {
+    int begin = N;
+    int end = -1;
+    if (row_begin[i] <= row_end[i]) {
+      begin = MAX(0, row_begin[i] - 1);
+      end = MIN(N - 1, row_end[i] + 1);
+    }
+    if (i > 0 && row_begin[i - 1] <= row_end[i - 1]) {
+      begin = MIN(begin, row_begin[i - 1]);
+      end = MAX(end, row_end[i - 1]);
+    }
+    if (i + 1 < N && row_begin[i + 1] <= row_end[i + 1]) {
+      begin = MIN(begin, row_begin[i + 1]);
+      end = MAX(end, row_end[i + 1]);
+    }
+    receive_begin[i] = begin;
+    receive_end[i] = end;
+  }
+}
 
 // you can also use this function to debug print your sandpile
 static void render(char *filename) {
@@ -74,43 +126,72 @@ static void render(char *filename) {
 
 static void stabilize() {
   int changed = 0;
-  do {
-    changed = 0;
-    for (int i = 0; i < N; ++i) {
-      for (int j = 0; j <= MAX(i, N - 1 - i); ++j) {
-        if ((i - N / 2) * (i - N / 2) + (j - N / 2) * (j - N / 2) <=
-            (N / 2) * (N / 2)) {
-          if (grid[i][j] < 4)
-            continue;
-          changed = 1; // topple it
-          grid[i][j] -= 4;
-          if (i > 0)
-            grid[i - 1][j]++;
-          if (j > 0)
-            grid[i][j - 1]++;
-          if (i < N - 1)
-            grid[i + 1][j]++;
-          if (j < N - 1)
-            grid[i][j + 1]++;
+#pragma omp parallel shared(changed)
+  {
+    int repeat;
+#pragma omp single
+    fprintf(stderr, "openmp_threads=%d\n", omp_get_num_threads());
+    for (;;) {
+#pragma omp single
+      changed = 0;
+      for (int color = 0; color < 2; ++color) {
+        // Consume the opposite color's previous counts exactly once, then
+        // publish this cell's next count. Same-color cells are not neighbors.
+#pragma omp for schedule(static) reduction(|:changed)
+        for (int i = 0; i < work_rows; ++i) {
+          int *counts = topple_storage + ((size_t)i + 1) * grid_stride + 1;
+          const int *above = counts - grid_stride;
+          const int *below = use_reflection && i == work_rows - 1
+                               ? above : counts + grid_stride;
+          int *row = grid[i];
+          const int active_begin = row_begin[i];
+          const int active_end = row_end[i];
+          int begin = receive_begin[i];
+          begin += ((i + begin) & 1) != color;
+#pragma omp simd reduction(|:changed)
+          for (int j = begin; j <= receive_end[i]; j += 2) {
+            int value = row[j] + above[j] + below[j]
+                              + counts[j - 1] + counts[j + 1];
+            // Interior sinks receive grains but must never topple.
+            int topples = j >= active_begin && j <= active_end && value >= 4
+                            ? value / 4 : 0;
+            row[j] = value - 4 * topples;
+            counts[j] = topples;
+            changed |= topples;
+          }
         }
+        // The implicit barrier publishes counts before the other color reads.
       }
+#pragma omp single copyprivate(repeat)
+      repeat = changed;
+      // Both colors have zero counts here, so no transfer remains pending.
+      if (!repeat)
+        break;
     }
-  } while (changed);
+  }
 }
 
 void find_identity() {
-  for (int i = 0; i < N; ++i) {
+  // Even-sized masks keep the full domain because their integer center differs.
+  use_reflection = N % 2 != 0;
+  work_rows = use_reflection ? N / 2 + 1 : N;
+  prepare_row_bounds();
+  for (int i = 0; i < work_rows; ++i) {
     for (int j = 0; j < N; ++j) {
       grid[i][j] = 6;
     }
   }
   stabilize();
-  for (int i = 0; i < N; ++i) {
+  for (int i = 0; i < work_rows; ++i) {
     for (int j = 0; j < N; ++j) {
       grid[i][j] = 6 - grid[i][j];
     }
   }
   stabilize();
+  if (use_reflection) {
+    for (int i = 0; i < N / 2; ++i)
+      memcpy(grid[N - 1 - i], grid[i], (size_t)N * sizeof(int));
+  }
 }
 
 int main(int argc, char **argv) {
@@ -125,17 +206,27 @@ int main(int argc, char **argv) {
     die("grid size must be a positive int");
   N = (int)parsed;
 
-  grid = (int **)malloc(N * sizeof(int *));
+  grid_stride = (size_t)N + 2;
+  if (grid_stride > SIZE_MAX / grid_stride / sizeof(*grid_storage))
+    die("grid size exceeds allocation limit");
+  grid_storage = calloc(grid_stride * grid_stride, sizeof(*grid_storage));
+  topple_storage = calloc(grid_stride * grid_stride, sizeof(*topple_storage));
+  grid = malloc((size_t)N * sizeof(*grid));
+  if (!grid_storage || !topple_storage || !grid)
+    die("malloc failed for grid");
   for (int i = 0; i < N; ++i) {
-    grid[i] = (int *)malloc(N * sizeof(int));
+    grid[i] = grid_storage + ((size_t)i + 1) * grid_stride + 1;
   }
 
   find_identity();
 
   render("identity.png");
-  for (int i = 0; i < N; ++i) {
-    free(grid[i]);
-  }
+  free(row_begin);
+  free(row_end);
+  free(receive_begin);
+  free(receive_end);
+  free(grid_storage);
+  free(topple_storage);
   free(grid);
   return EXIT_SUCCESS;
 }

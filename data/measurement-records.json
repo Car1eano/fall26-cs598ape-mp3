@@ -1,0 +1,1016 @@
+[
+  {
+    "source_record": "results/batch-toppling/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n",
+      "binary_sha256": "df207bd83eed895940fc466398777303a358fd4e824d2d96274ca7b1f1d77210",
+      "source_sha256": "82a2d2e9770663edfa26a208f007fe103040d6bcc6550947118aadfe4f51b059",
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror",
+      "started_utc": "2026-11-09T18:43:23Z",
+      "exit_code": 0,
+      "wall_seconds": 266.07539451499997,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/batch-toppling/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n",
+      "binary_sha256": "df207bd83eed895940fc466398777303a358fd4e824d2d96274ca7b1f1d77210",
+      "source_sha256": "82a2d2e9770663edfa26a208f007fe103040d6bcc6550947118aadfe4f51b059",
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror",
+      "started_utc": "2026-11-09T18:49:16Z",
+      "exit_code": 0,
+      "wall_seconds": 267.0735849060002,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/flat-padding/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "612cce2d3725f009b739dcf7407ff3cf355472739a6ab2056d28779f24ce96b5",
+      "source_sha256": "312d8c1715591bf95c811a61c543835151d48a44591f3f2d1e4e61e7faac93bb",
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror",
+      "started_utc": "2026-11-09T18:58:28Z",
+      "exit_code": 0,
+      "wall_seconds": 272.2647669710004,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/flat-padding/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "612cce2d3725f009b739dcf7407ff3cf355472739a6ab2056d28779f24ce96b5",
+      "source_sha256": "312d8c1715591bf95c811a61c543835151d48a44591f3f2d1e4e61e7faac93bb",
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror",
+      "started_utc": "2026-11-09T19:04:20Z",
+      "exit_code": 0,
+      "wall_seconds": 272.0664798179987,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/original/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "exit_code": 0,
+      "wall_seconds": 616.2338526959998,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "png_dimensions": [
+        1001,
+        1001
+      ]
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "4ccd60bd5132ab7326416ca0c6e93aab8ee3131b64f6bd0d1ab9f29df9364325",
+      "source_sha256": "9da4db719bc10bccae6b0a5141d1c671e406f25a1a480fcfc9659df807623f54",
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror",
+      "started_utc": "2026-11-09T19:30:26Z",
+      "exit_code": 0,
+      "wall_seconds": 349.89116698199905,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-fused/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-fused.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "fc302256dd4ca97bb73c43123c2bfc4058b96ae720f4e7157c52440e9be6cf61",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-fused.c",
+      "source_sha256": "4f16d4d916fc445de82c4fab21990f48f98e644bb66d19a29939507970950f63",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:31:52Z",
+      "exit_code": 0,
+      "wall_seconds": 48.828661352999916,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-fused/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-fused.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "fc302256dd4ca97bb73c43123c2bfc4058b96ae720f4e7157c52440e9be6cf61",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-fused.c",
+      "source_sha256": "4f16d4d916fc445de82c4fab21990f48f98e644bb66d19a29939507970950f63",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:32:41Z",
+      "exit_code": 0,
+      "wall_seconds": 58.01293741399786,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-fused-simd/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-fused-simd.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "8a81ee5f67afaf22a192067401508c19b654563bc219899f899ae8472015509f",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-fused-simd.c",
+      "source_sha256": "6b422e93b0c293728cda4596fe87177177adb766e10fd750409f5ddd22d85fa4",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp -march=native",
+      "started_utc": "2026-11-09T21:38:12Z",
+      "exit_code": 0,
+      "wall_seconds": 25.087774761999754,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-fused-simd/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-fused-simd.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "8a81ee5f67afaf22a192067401508c19b654563bc219899f899ae8472015509f",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-fused-simd.c",
+      "source_sha256": "6b422e93b0c293728cda4596fe87177177adb766e10fd750409f5ddd22d85fa4",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp -march=native",
+      "started_utc": "2026-11-09T21:38:37Z",
+      "exit_code": 0,
+      "wall_seconds": 25.236447960000078,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-openmp/threads-1/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-openmp.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "ea62e9c7a0b648edc59d9a11641500fe3ab41de0b6b5a1f7f409603cc68de34c",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp.c",
+      "source_sha256": "5637b01d2823291ec610e1f2d91af36d590a5d3bfe71e9af02c42faa78e472ff",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T19:46:02Z",
+      "exit_code": 0,
+      "wall_seconds": 351.29688286500095,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-openmp/threads-2/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-openmp.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "ea62e9c7a0b648edc59d9a11641500fe3ab41de0b6b5a1f7f409603cc68de34c",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp.c",
+      "source_sha256": "5637b01d2823291ec610e1f2d91af36d590a5d3bfe71e9af02c42faa78e472ff",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "2",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T19:51:53Z",
+      "exit_code": 0,
+      "wall_seconds": 175.75861035300113,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-openmp/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-openmp.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "ea62e9c7a0b648edc59d9a11641500fe3ab41de0b6b5a1f7f409603cc68de34c",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp.c",
+      "source_sha256": "5637b01d2823291ec610e1f2d91af36d590a5d3bfe71e9af02c42faa78e472ff",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T19:54:49Z",
+      "exit_code": 0,
+      "wall_seconds": 98.85495643399918,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-openmp/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-openmp.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "ea62e9c7a0b648edc59d9a11641500fe3ab41de0b6b5a1f7f409603cc68de34c",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp.c",
+      "source_sha256": "5637b01d2823291ec610e1f2d91af36d590a5d3bfe71e9af02c42faa78e472ff",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T20:08:25Z",
+      "exit_code": 0,
+      "wall_seconds": 101.7940455299995,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-openmp-symmetry/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-openmp-symmetry.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "db592818aab17c09951febb9827cd58b9b855ad7bb0a67bb4ab8e83dd554eb74",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp-symmetry.c",
+      "source_sha256": "db60b7bcd608643ae29b9f668fd667ff84e3705fb7ff66f9557eb5a4cbf76ca5",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T20:15:56Z",
+      "exit_code": 0,
+      "wall_seconds": 54.67859277899879,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-openmp-symmetry/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-openmp-symmetry.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "db592818aab17c09951febb9827cd58b9b855ad7bb0a67bb4ab8e83dd554eb74",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp-symmetry.c",
+      "source_sha256": "db60b7bcd608643ae29b9f668fd667ff84e3705fb7ff66f9557eb5a4cbf76ca5",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T20:16:51Z",
+      "exit_code": 0,
+      "wall_seconds": 54.456762755000454,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-openmp-symmetry-simd/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-openmp-symmetry-simd.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "8d1c1832bd6679ddd4cd9aa524e39421d4b51051f081ac8e9e8bb6ef473584a3",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp-symmetry-simd.c",
+      "source_sha256": "b658992bbb8f0c3062777b1627a5af471f936150d6d1ffb4e9ca5566ba9ab708",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp -march=native",
+      "started_utc": "2026-11-09T20:17:58Z",
+      "exit_code": 0,
+      "wall_seconds": 55.50503318700066,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/red-black-openmp-symmetry-simd/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-red-black-openmp-symmetry-simd.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "8d1c1832bd6679ddd4cd9aa524e39421d4b51051f081ac8e9e8bb6ef473584a3",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/red-black-openmp-symmetry-simd.c",
+      "source_sha256": "b658992bbb8f0c3062777b1627a5af471f936150d6d1ffb4e9ca5566ba9ab708",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp -march=native",
+      "started_utc": "2026-11-09T20:18:54Z",
+      "exit_code": 0,
+      "wall_seconds": 54.83270949100006,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-bounds/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n",
+      "binary_sha256": "714db7c8d8ee006ad90dfc1418c8309aff358acbe80aaa5b7aa6b8ed624c97f6",
+      "source_sha256": "733036f780e2c0ddfdf7dcde733ee220896931e76080d01f4baf107ce415a8ec",
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror",
+      "started_utc": "2026-11-09T18:25:14Z",
+      "exit_code": 0,
+      "wall_seconds": 301.72005487000024,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-bounds/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n",
+      "binary_sha256": "714db7c8d8ee006ad90dfc1418c8309aff358acbe80aaa5b7aa6b8ed624c97f6",
+      "source_sha256": "733036f780e2c0ddfdf7dcde733ee220896931e76080d01f4baf107ce415a8ec",
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror",
+      "started_utc": "2026-11-09T18:31:53Z",
+      "exit_code": 0,
+      "wall_seconds": 301.526438033,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color/threads-1/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "42c78dfd0bd5ecd47761e5ba398eb6acaddc8643d3e30b29c708cda85c923529",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color.c",
+      "source_sha256": "95f7be7f0000cb10160c9e1667d6cf7c1ab0a2bced64a6984dbb98c223fb5b4d",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T19:36:16Z",
+      "exit_code": 0,
+      "wall_seconds": 313.2387980450003,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color/threads-2/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "42c78dfd0bd5ecd47761e5ba398eb6acaddc8643d3e30b29c708cda85c923529",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color.c",
+      "source_sha256": "95f7be7f0000cb10160c9e1667d6cf7c1ab0a2bced64a6984dbb98c223fb5b4d",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "2",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T19:41:30Z",
+      "exit_code": 0,
+      "wall_seconds": 160.69184523100012,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "42c78dfd0bd5ecd47761e5ba398eb6acaddc8643d3e30b29c708cda85c923529",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color.c",
+      "source_sha256": "95f7be7f0000cb10160c9e1667d6cf7c1ab0a2bced64a6984dbb98c223fb5b4d",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T19:44:10Z",
+      "exit_code": 0,
+      "wall_seconds": 98.03137837800023,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "42c78dfd0bd5ecd47761e5ba398eb6acaddc8643d3e30b29c708cda85c923529",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color.c",
+      "source_sha256": "95f7be7f0000cb10160c9e1667d6cf7c1ab0a2bced64a6984dbb98c223fb5b4d",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T20:06:49Z",
+      "exit_code": 0,
+      "wall_seconds": 95.42106009999952,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-core-loop/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-core-loop.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "0017c3144da551732607f5acfeef774c8b8dfec9c4c6a4e4af253c9c552ac295",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-core-loop.c",
+      "source_sha256": "dcf392f3de41fe34289233ea22667a777c203f210e829232d7b15d952d986abb",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:24:56Z",
+      "exit_code": 0,
+      "wall_seconds": 40.49412585100072,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-core-loop/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-core-loop.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "0017c3144da551732607f5acfeef774c8b8dfec9c4c6a4e4af253c9c552ac295",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-core-loop.c",
+      "source_sha256": "dcf392f3de41fe34289233ea22667a777c203f210e829232d7b15d952d986abb",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:25:37Z",
+      "exit_code": 0,
+      "wall_seconds": 39.907534812999074,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-core-loop/threads-4/n1001/run-03/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-core-loop.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "0017c3144da551732607f5acfeef774c8b8dfec9c4c6a4e4af253c9c552ac295",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-core-loop.c",
+      "source_sha256": "dcf392f3de41fe34289233ea22667a777c203f210e829232d7b15d952d986abb",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:29:53Z",
+      "exit_code": 0,
+      "wall_seconds": 39.35154930700082,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-core-loop-lto/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-core-loop-lto.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "09730278bd97a69f7b9973e11756d15a0c44afa28b55658c5b6465db2514d87f",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-core-loop.c",
+      "source_sha256": "dcf392f3de41fe34289233ea22667a777c203f210e829232d7b15d952d986abb",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp -flto",
+      "started_utc": "2026-11-09T21:39:09Z",
+      "exit_code": 0,
+      "wall_seconds": 39.502537402997405,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-core-loop-lto/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-core-loop-lto.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "09730278bd97a69f7b9973e11756d15a0c44afa28b55658c5b6465db2514d87f",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-core-loop.c",
+      "source_sha256": "dcf392f3de41fe34289233ea22667a777c203f210e829232d7b15d952d986abb",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp -flto",
+      "started_utc": "2026-11-09T21:39:49Z",
+      "exit_code": 0,
+      "wall_seconds": 38.97279219900156,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-local-flags/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-local-flags.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "c94dcb3c2d54e444c9f24fb105dab86c55ca8af36882715d2f44fb24ad615af4",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-local-flags.c",
+      "source_sha256": "53e1be283683b0775eb7a873f4a5c1fcce69464f8a7a3a134e395dd5c35e7ac1",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:18:30Z",
+      "exit_code": 0,
+      "wall_seconds": 47.60623426199891,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-local-flags/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-local-flags.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "c94dcb3c2d54e444c9f24fb105dab86c55ca8af36882715d2f44fb24ad615af4",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-local-flags.c",
+      "source_sha256": "53e1be283683b0775eb7a873f4a5c1fcce69464f8a7a3a134e395dd5c35e7ac1",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:19:18Z",
+      "exit_code": 0,
+      "wall_seconds": 48.15953897599684,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-symmetry/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-symmetry.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "36046de03b2b8a5a0b0c06862b08cff43b4f55f986145243e33e6df8b6d39ea9",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-symmetry.c",
+      "source_sha256": "c13dcdd9ac4bdf27a8bbc42a5dfa22eee0cad7eb9639274e16de99896609578e",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T20:14:02Z",
+      "exit_code": 0,
+      "wall_seconds": 49.95843052800046,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-symmetry/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-symmetry.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "36046de03b2b8a5a0b0c06862b08cff43b4f55f986145243e33e6df8b6d39ea9",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-symmetry.c",
+      "source_sha256": "c13dcdd9ac4bdf27a8bbc42a5dfa22eee0cad7eb9639274e16de99896609578e",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T20:14:52Z",
+      "exit_code": 0,
+      "wall_seconds": 48.397287522000624,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-symmetry-cyclic/threads-4/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-symmetry-cyclic.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "166321e6f314b8c297939cee85f7fe2830655bcb2b3bfbec8808e46512dfafa6",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-symmetry-cyclic.c",
+      "source_sha256": "7f2b4f7506f32457133c2c6a80c86b398df1b91cb6cf5214ad5d92b4bfac0f7e",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:12:50Z",
+      "exit_code": 0,
+      "wall_seconds": 46.663863781002874,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/row-three-color-symmetry-cyclic/threads-4/n1001/run-02/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile-row-three-color-symmetry-cyclic.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "166321e6f314b8c297939cee85f7fe2830655bcb2b3bfbec8808e46512dfafa6",
+      "source_path": "/home/poching2/fall26-cs598ape-mp3/variants/row-three-color-symmetry-cyclic.c",
+      "source_sha256": "7f2b4f7506f32457133c2c6a80c86b398df1b91cb6cf5214ad5d92b4bfac0f7e",
+      "openmp_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OMP_DYNAMIC": "FALSE",
+        "OMP_PROC_BIND": "close",
+        "OMP_PLACES": "cores"
+      },
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror -fopenmp",
+      "started_utc": "2026-11-09T21:13:37Z",
+      "exit_code": 0,
+      "wall_seconds": 45.746034349002,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  },
+  {
+    "source_record": "results/two-phase/n1001/run-01/metrics.json",
+    "metadata": {
+      "status": "completed",
+      "grid_size": 1001,
+      "command": [
+        "/home/poching2/fall26-cs598ape-mp3/sandpile.exe",
+        "1001"
+      ],
+      "source_commit": "952c4d3ed5def19f515e1b4466683a822259a9d6",
+      "git_status": " M .gitignore\n M Makefile\n M sandpile.c\n?? baseline/\n?? tools/\n?? variants/\n",
+      "binary_sha256": "15550ee94db9980bbab84574683c99ce1a9c257ef4dcaef7c958e53fc00ed62d",
+      "source_sha256": "7f70638f328a26ce0a3346b8e431ae8381c002d17359d427a1457d087c936a29",
+      "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "build_flags": "-O3 -lm -g -Werror",
+      "started_utc": "2026-11-09T19:12:38Z",
+      "exit_code": 0,
+      "wall_seconds": 848.4466006539988,
+      "png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+      "matches_reference_png": true
+    },
+    "png_byte_identical_to_reference": true
+  }
+]

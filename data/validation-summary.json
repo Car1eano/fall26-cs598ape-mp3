@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "selected_variant": "red-black-fused-simd",
+  "grid_size": 1001,
+  "full_grid_comparisons": 2,
+  "cells_per_comparison": 1002001,
+  "all_cells_equal": true,
+  "grid_sha256": "2df161ba90bcc5739b3f3cbf0819a98872d0e619d4faa55f2ca57651dfd40a7b",
+  "memcheck_cases": 8,
+  "native_asan_ubsan_cases": 12,
+  "memory_details": "memory-summary.json",
+  "notes": [
+    "Memcheck used the same source with AVX-512 disabled because native instructions are unsupported by Valgrind.",
+    "OpenMP TLS allocations were reported as possibly lost; see raw XML and memory-summary.json.",
+    "Full-grid dump runs are validation runs, excluded from PNG benchmark statistics."
+  ]
+}

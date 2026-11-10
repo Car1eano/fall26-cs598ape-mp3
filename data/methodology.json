@@ -1,0 +1,17 @@
+{
+  "grid_size": 1001,
+  "time_unit": "seconds",
+  "measurement_count": 36,
+  "configuration_count": 21,
+  "reference_png_sha256": "4883dba5b09236b78477ca25c9395411fc1f82f4233aaa378193d7925269dbbe",
+  "baseline_samples": 1,
+  "method": "Arithmetic means of ordinary complete process wall times, including PNG output. No separately excluded warm-up; no instrumentation or validation times.",
+  "error_bars": "Observed minimum to maximum; individual runs are plotted. No confidence intervals.",
+  "missing_metadata": "Blank fields retain missing values from early records; values are not reconstructed.",
+  "limitations": [
+    "Original baseline has one ordinary sample.",
+    "Most configurations have only two samples; core-loop has three.",
+    "VM host load and scheduling were not controlled or randomized.",
+    "SIMD/native candidates combine a SIMD directive with native CPU flags."
+  ]
+}

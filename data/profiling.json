@@ -1,0 +1,188 @@
+{
+  "measurement_type": "Instrumented evidence; excluded from ordinary timing averages",
+  "interpretation": "cycles:u sample percentages describe sampled CPU cycles, not wall-clock fractions",
+  "reports": {
+    "original": {
+      "source_report": "results/perf-original/n1001/run-01/report.txt",
+      "event": "cycles:u",
+      "lost_samples": 0,
+      "instrumented_wall_seconds": 632.7621008019996,
+      "hotspots": [
+        {
+          "sample_percent": 99.97,
+          "shared_object": "sandpile.exe",
+          "symbol": "stabilize"
+        },
+        {
+          "sample_percent": 0.02,
+          "shared_object": "[unknown]",
+          "symbol": "0xffffffffac600ef0"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "sandpile.exe",
+          "symbol": "stbi_zlib_compress"
+        },
+        {
+          "sample_percent": 0.0,
+          "shared_object": "sandpile.exe",
+          "symbol": "stbiw__encode_png_line"
+        }
+      ]
+    },
+    "A_symmetry_4_threads": {
+      "source_report": "results/perf-fastest/threads-4/n1001/run-01/report.txt",
+      "event": "cycles:u",
+      "lost_samples": 0,
+      "instrumented_wall_seconds": 51.26467978200162,
+      "hotspots": [
+        {
+          "sample_percent": 73.09,
+          "shared_object": "sandpile-row-three-color-symmetry.exe",
+          "symbol": "stabilize._omp_fn.0"
+        },
+        {
+          "sample_percent": 8.58,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026c72"
+        },
+        {
+          "sample_percent": 8.5,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026c76"
+        },
+        {
+          "sample_percent": 5.97,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026c70"
+        },
+        {
+          "sample_percent": 3.19,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026c7b"
+        },
+        {
+          "sample_percent": 0.18,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026c7f"
+        },
+        {
+          "sample_percent": 0.09,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026dbf"
+        },
+        {
+          "sample_percent": 0.07,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "GOMP_single_start"
+        },
+        {
+          "sample_percent": 0.05,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000025e74"
+        },
+        {
+          "sample_percent": 0.04,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026db7"
+        },
+        {
+          "sample_percent": 0.04,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "GOMP_single_copy_start"
+        },
+        {
+          "sample_percent": 0.03,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000025afa"
+        },
+        {
+          "sample_percent": 0.03,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x000000000002713e"
+        },
+        {
+          "sample_percent": 0.02,
+          "shared_object": "sandpile-row-three-color-symmetry.exe",
+          "symbol": "stbi_zlib_compress"
+        },
+        {
+          "sample_percent": 0.02,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000025ae8"
+        },
+        {
+          "sample_percent": 0.02,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000025ed8"
+        },
+        {
+          "sample_percent": 0.02,
+          "shared_object": "[unknown]",
+          "symbol": "0xffffffffac600ef0"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "sandpile-row-three-color-symmetry.exe",
+          "symbol": "GOMP_single_start@plt"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000027106"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "GOMP_barrier"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026c81"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "[unknown]",
+          "symbol": "0xffffffffac600080"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "sandpile-row-three-color-symmetry.exe",
+          "symbol": "stbiw__encode_png_line"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026a8b"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026a80"
+        },
+        {
+          "sample_percent": 0.01,
+          "shared_object": "sandpile-row-three-color-symmetry.exe",
+          "symbol": "stbi_write_png_to_mem"
+        },
+        {
+          "sample_percent": 0.0,
+          "shared_object": "libgomp.so.1.0.0",
+          "symbol": "0x0000000000026d35"
+        },
+        {
+          "sample_percent": 0.0,
+          "shared_object": "libc.so.6",
+          "symbol": "__memmove_evex_unaligned_erms"
+        }
+      ]
+    }
+  },
+  "original_phase_times_seconds": {
+    "stabilize_1_seconds": 445.050767298,
+    "stabilize_2_seconds": 172.658580917,
+    "find_identity_seconds": 617.710780162,
+    "render_seconds": 0.07491737
+  }
+}

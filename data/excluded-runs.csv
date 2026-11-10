@@ -1,0 +1,14 @@
+source_record,reason,grid_size,wall_seconds
+results/original/n101/run-01/metrics.json,Different grid size,101,0.08766749500000515
+results/original/n31/run-01/metrics.json,Different grid size,31,0.0035324909999872034
+results/perf-fastest/threads-4/n1001/run-01/metrics.json,Profiling instrumentation,1001,51.26467978200162
+results/perf-original/n1001/run-01/metrics.json,Profiling instrumentation,1001,632.7621008019996
+results/timing-original/n1001/run-01/metrics.json,Phase-timing instrumentation,1001,617.7917505570003
+results/timing-original/n101/run-01/metrics.json,Different grid size,101,0.08509075099937036
+results/validation-reproduction/three-variants/flat-padding/threads-1/n31/run-01/metrics.json,Different grid size,31,0.002707670002564555
+results/validation-reproduction/three-variants/red-black-openmp-symmetry-simd/threads-4/n31/run-01/metrics.json,Different grid size,31,0.0062021010016906075
+results/validation-reproduction/three-variants/row-three-color-symmetry-cyclic/threads-4/n31/run-01/metrics.json,Different grid size,31,0.00816997999936575
+results/final-validation-03/grid/baseline/execution.json,Full-grid dump validation,1001,633.6314289520014
+results/final-validation-03/grid/optimized-run-01/execution.json,Full-grid dump validation,1001,25.497189257999707
+results/final-validation-03/grid/optimized-run-02/execution.json,Full-grid dump validation,1001,25.684963970001263
+results/validation-reproduction/status.json,Packaging validation,1001,25.805256068000745

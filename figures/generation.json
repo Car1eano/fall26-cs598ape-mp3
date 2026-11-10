@@ -1,0 +1,17 @@
+{
+  "python": "3.12.15",
+  "matplotlib": "3.11.2",
+  "inputs": [
+    "data/summary.csv",
+    "data/measurements.csv"
+  ],
+  "figures": [
+    "runtime_overview",
+    "late_optimizations",
+    "thread_scaling"
+  ],
+  "formats": [
+    "png",
+    "pdf"
+  ]
+}

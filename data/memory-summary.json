@@ -1,0 +1,130 @@
+{
+  "memcheck": [
+    {
+      "directory": "memcheck/n1/threads-1",
+      "exit_code": 0,
+      "definitely_lost_bytes": 0,
+      "indirectly_lost_bytes": 0,
+      "possibly_lost_bytes": 0,
+      "still_reachable_bytes": 360,
+      "non_leak_errors": []
+    },
+    {
+      "directory": "memcheck/n1/threads-4",
+      "exit_code": 0,
+      "definitely_lost_bytes": 0,
+      "indirectly_lost_bytes": 0,
+      "possibly_lost_bytes": 864,
+      "still_reachable_bytes": 2672,
+      "non_leak_errors": []
+    },
+    {
+      "directory": "memcheck/n2/threads-1",
+      "exit_code": 0,
+      "definitely_lost_bytes": 0,
+      "indirectly_lost_bytes": 0,
+      "possibly_lost_bytes": 0,
+      "still_reachable_bytes": 360,
+      "non_leak_errors": []
+    },
+    {
+      "directory": "memcheck/n2/threads-4",
+      "exit_code": 0,
+      "definitely_lost_bytes": 0,
+      "indirectly_lost_bytes": 0,
+      "possibly_lost_bytes": 864,
+      "still_reachable_bytes": 2672,
+      "non_leak_errors": []
+    },
+    {
+      "directory": "memcheck/n31/threads-1",
+      "exit_code": 0,
+      "definitely_lost_bytes": 0,
+      "indirectly_lost_bytes": 0,
+      "possibly_lost_bytes": 0,
+      "still_reachable_bytes": 360,
+      "non_leak_errors": []
+    },
+    {
+      "directory": "memcheck/n31/threads-4",
+      "exit_code": 0,
+      "definitely_lost_bytes": 0,
+      "indirectly_lost_bytes": 0,
+      "possibly_lost_bytes": 864,
+      "still_reachable_bytes": 2672,
+      "non_leak_errors": []
+    },
+    {
+      "directory": "memcheck/n32/threads-1",
+      "exit_code": 0,
+      "definitely_lost_bytes": 0,
+      "indirectly_lost_bytes": 0,
+      "possibly_lost_bytes": 0,
+      "still_reachable_bytes": 360,
+      "non_leak_errors": []
+    },
+    {
+      "directory": "memcheck/n32/threads-4",
+      "exit_code": 0,
+      "definitely_lost_bytes": 0,
+      "indirectly_lost_bytes": 0,
+      "possibly_lost_bytes": 864,
+      "still_reachable_bytes": 2672,
+      "non_leak_errors": []
+    }
+  ],
+  "sanitizers": [
+    {
+      "directory": "sanitizers/n1/threads-1",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n1/threads-4",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n101/threads-1",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n101/threads-4",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n102/threads-1",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n102/threads-4",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n2/threads-1",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n2/threads-4",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n31/threads-1",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n31/threads-4",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n32/threads-1",
+      "exit_code": 0
+    },
+    {
+      "directory": "sanitizers/n32/threads-4",
+      "exit_code": 0
+    }
+  ],
+  "memcheck_avx512_disabled": true,
+  "sanitizers_native_enabled": true,
+  "native_valgrind_attempt": "../final-validation/memcheck/n1/threads-1",
+  "restricted_leak_sanitizer_attempt": "../final-validation-02/sanitizers/n1/threads-1"
+}

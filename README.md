@@ -43,3 +43,40 @@ For an optional, ungraded challenge, see how large a sandpile you can compute
 on the course VMs and report the grid size and runtime. There is no prescribed
 upper limit on `N` for this challenge.
 
+## Install
+
+On the Ubuntu course VM:
+
+```bash
+sudo apt-get update
+sudo apt-get install build-essential python3 git
+```
+
+GCC and Make build the program. Python uses only its standard library for experiments.
+
+Clone the repository and enter its directory (GitHub access is required while private):
+
+```bash
+git clone https://github.com/Car1eano/fall26-cs598ape-mp3.git
+cd fall26-cs598ape-mp3
+```
+
+## Build and run the final version
+
+Run these commands from the repository root:
+
+```bash
+make
+OMP_NUM_THREADS=4 OMP_DYNAMIC=FALSE OMP_PROC_BIND=close OMP_PLACES=cores ./sandpile.exe 1001
+cmp identity.png identity-ref.png
+```
+
+The program writes `identity.png` in the current directory. For size 1001,
+`cmp` exits successfully without output when the PNG matches the reference.
+Replace `1001` with another positive grid size to compute a different image.
+
+The final build uses `-O3 -fopenmp -march=native`; build it on the course VM.
+To remove executables, run `make clean`.
+
+See [Experiment reproduction](docs/experiments.md) for other versions, saved timings,
+correctness checks, and optional profiling tools.

@@ -18,3 +18,32 @@
 
 # Compiled handouts
 /handout/*.pdf
+
+# Local planning notes
+/checklist.md
+/docs/experiment-notes.md
+
+# Local build and experiment outputs
+__pycache__/
+*.pyc
+/sandpile.exe
+/sandpile-baseline.exe
+/sandpile-row-bounds.exe
+/sandpile-batch-toppling.exe
+/sandpile-flat-padding.exe
+/sandpile-two-phase.exe
+/sandpile-red-black.exe
+/sandpile-row-three-color.exe
+/sandpile-red-black-openmp.exe
+/sandpile-row-three-color-symmetry.exe
+/sandpile-red-black-openmp-symmetry.exe
+/sandpile-simd-candidate.exe
+/sandpile-red-black-openmp-symmetry-simd.exe
+/sandpile-row-three-color-symmetry-cyclic.exe
+/sandpile-row-three-color-local-flags.exe
+/sandpile-row-three-color-core-loop.exe
+/sandpile-red-black-fused.exe
+/sandpile-red-black-fused-simd.exe
+/sandpile-row-three-color-core-loop-lto.exe
+/identity.png
+/results/
