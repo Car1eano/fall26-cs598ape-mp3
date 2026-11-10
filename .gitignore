@@ -19,6 +19,9 @@
 # Compiled handouts
 /handout/*.pdf
 
+# Regenerated report figure previews
+/mp3-report/figures/*.png
+
 # Local planning notes
 /checklist.md
 /docs/experiment-notes.md
